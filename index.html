@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Wix+Madefor+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Wix Madefor Display', sans-serif;
+        }
+        .yesil{
+            color: #009688;
+        }
+        .backyesil{
+            background-color: #009688;
+        }
+        .px_18{
+            font-size: 18px;
+        }
+        .px_15{
+            font-size: 15px;
+        }
+        .rem_12{
+            font-size: 1.2rem;
+        }
+        .buttonlar:hover{
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <article>
+            <div class="container mt-3 mb-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card border-0 shadow-lg" style="width: 100%;">
+                            <div class="card border-0 rounded-0 shadow-lg" style="width: 100%;">
+                                <img src="https://www.w3schools.com/w3images/avatar_hat.jpg">
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title position-absolute bottom-0 start-0 ms-3">Jane Doe</h3>
+                                </div>
+                            </div>
+                            <div class="card-body border-bottom">
+                                <span><i  class="px_18 ms-1 fa fa-briefcase fa-fw yesil"></i><span class="text-muted ms-3 px_15"> Designer</span></span><br>
+                                <span><i  class="px_18 ms-1 fa fa-house yesil fs-5 mt-3"></i><span class="text-muted ms-3 px_15"> London, UK</span><br></span>
+                                <span><i  class="px_18 ms-1 fa fa-envelope yesil fs-5 mt-3"></i><span class="text-muted ms-3 px_15"> ex@mail.com</span><br></span>
+                                <span><i  class="px_18 ms-1 fa fa-phone yesil fs-5 mt-3"></i><span class="text-muted ms-3 px_15"> 1224435534</span><br></span>
+                            </div>
+                            <div class="card-body">
+                                <b><span><i style="font-size: 18px;" class="ms-2 fa-solid fa-asterisk yesil"></i><span class="ms-3 text-muted" style="font-size: 18px;"> Skills</span></span></b><br>
+                                <p class="mt-4 text-muted px_15 ">Adobe Photoshop</p>
+                                <div class="progress">
+                                    <div class="progress-bar backyesil" role="progressbar" aria-label="Example with label" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                </div>
+                                <p class="mt-4 text-muted px_15 ">Photography</p>
+                                <div class="progress">
+                                    <div class="progress-bar backyesil" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                </div>
+                                <p class="mt-4 text-muted px_15 ">Illustrator</p>
+                                <div class="progress">
+                                    <div class="progress-bar backyesil" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                </div>
+                                <p class="mt-4 text-muted px_15 ">Media</p>
+                                <div class="progress">
+                                    <div class="progress-bar backyesil" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <b><span><i style="font-size: 18px;" class="ms-2 fa-solid fa-earth-americas yesil"></i><span class="ms-3 text-muted" style="font-size: 18px;"> Languages</span></span></b><br>
+                                <p class="mt-4 text-muted px_15 ">English</p>
+                                <div class="progress" style="height: 20px;">
+                                    <div class="progress-bar backyesil rounded-5" role="progressbar" aria-label="Example 20px high" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="mt-4 text-muted px_15 ">Spanish</p>
+                                <div class="progress" style="height: 20px;">
+                                    <div class="progress-bar backyesil rounded-5" role="progressbar" aria-label="Example 20px high" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="mt-4 text-muted px_15 ">German</p>
+                                <div class="progress mb-2" style="height: 20px;">
+                                    <div class="progress-bar backyesil rounded-5" role="progressbar" aria-label="Example 20px high" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <div class="card rounded-0 shadow-lg" style="width: 100%;">
+                            <div class="card-body">
+                              <h2 class="card-title mt-3"><i class="fa fa-suitcase fa-fw yesil ms-2"></i> <span class="text-muted ms-2   ">Work Experience</span></h1>
+                            </div>
+                            <div class="card-body ms-4">
+                                <h5 class="text-muted fw-bold rem_12">Front-End Developer / w3schools.com</h5>
+                                <div class="mt-3" ><i class="fa fa-calendar-days fa-fw yesil rem_12"></i><span class="ms-3 text-success">Jan 2015 - </span><span class="backyesil text-white py-1 px-2 rounded-1">Current</span></div>
+                                <p class="mt-3 border-bottom pb-4">Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                                <h5 class="text-muted fw-bold rem_12 mt-4">Web Developer / something.com</h5>
+                                <div class="mt-3" ><i class="fa fa-calendar-days fa-fw yesil rem_12"></i><span class="ms-3 text-success">Mar 2012 - Dec 2014 </span></div>
+                                <p class="mt-3 border-bottom pb-4">Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                                <h5 class="text-muted fw-bold rem_12 mt-4">Graphic Designer / designsomething.com</h5>
+                                <div class="mt-3" ><i class="fa fa-calendar-days fa-fw yesil rem_12"></i><span class="ms-3 text-success">Jun 2010 - Mar 2012</span></div>
+                                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="card mt-3 rounded-0 shadow-lg" style="width: 100%;">
+                            <div class="card-body">
+                              <h2 class="card-title mt-3"><i class="fa fa-certificate fa-fw yesil ms-2"></i> <span class="text-muted ms-2">Education</span></h1>
+                            </div>
+                            <div class="card-body ms-4">
+                                <h5 class="text-muted fw-bold rem_12">W3Schools.com</h5>
+                                <div class="mt-3" ><i class="fa fa-calendar-days fa-fw yesil rem_12"></i><span class="ms-3 text-success">Forever</span></div>
+                                <p class="mt-3 border-bottom pb-4">Web Development! All I need to know in one place</p>
+                                <h5 class="text-muted fw-bold rem_12 mt-4">London Business School</h5>
+                                <div class="mt-3" ><i class="fa fa-calendar-days fa-fw yesil rem_12"></i><span class="ms-3 text-success">2013 - 2015</span></div>
+                                <p class="mt-3 border-bottom pb-4">Master Degree</p>
+                                <h5 class="text-muted fw-bold rem_12 mt-4">School of Coding</h5>
+                                <div class="mt-3" ><i class="fa fa-calendar-days fa-fw yesil rem_12"></i><span class="ms-3 text-success">2010 - 2013</span></div>
+                                <p class="mt-3">Bachelor Degree</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <div class="backyesil" style="height: 140px;">
+            <h6 class="text-center pt-3 text-white">Find me on social media.</h6>
+            <div class="text-center mt-3">
+                <a href="https://www.facebook.com" target="_blank" class="buttonlar text-white"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="buttonlar text-white"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="buttonlar text-white"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="buttonlar text-white"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="buttonlar text-white"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="buttonlar text-white"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <h6 class="text-center mt-3 text-white">Powered by <a href="" class="text-white">Bootstrap</a></h6>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

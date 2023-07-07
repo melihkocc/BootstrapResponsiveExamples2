@@ -2,7 +2,7 @@
  Responsive cv site made using Bootstrap
  
 ## Live Demo Link
-<a href="https://melihkocc.github.io/todolist_proje/">Demo Link</a>
+<a href="https://melihkocc.github.io/BootstrapResponsiveExamples2/">Demo Link</a>
 
 ## Technologies
 · HTML<br>
